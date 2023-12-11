@@ -1,0 +1,13 @@
+li{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: darkblue;
+}
+
+p{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
