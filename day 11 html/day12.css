@@ -1,0 +1,7 @@
+.GOA {
+    width: 203px;
+    height: 234px;
+    background-color: green;
+    border: 2px solid rgb(red, green, blue);
+    border-style: groove;
+}
