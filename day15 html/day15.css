@@ -1,0 +1,37 @@
+body {
+    background-image: url("D:\/path/8qlpLUpG_400x400.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+ 
+ 
+ 
+ p {
+   text-align: center;
+ }
+
+ p{
+   color: greenyellow;
+   background-color: black;
+ }
+
+
+
+
+
+.float {
+   float: right;
+   margin-right: 20px;
+}
+
+
+.frame {
+    border: 1px solid #00ff00; /* Green border */
+    box-shadow: 0 0 10px #00ff00; /* Green glow effect */
+    width: 560px;
+    height: 315px;
+    transform: perspective(300px) rotateX(30deg);
+}

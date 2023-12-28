@@ -2,35 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="day15.css">
 
 <form>
-    <label for="name">enter your name</label>
-    <input type="text" id="name">
-</form>
-
-
-<form>
-    <label for="last name">enter your last name</label>
-    <input type="text" id="last name">
-</form>
-
-<form id="genderForm">
-    <label>
-        <input type="radio" name="gender" value="male">
-        Male
-    </label>
-    <label>
-        <input type="radio" name="gender" value="female">
-        Female
-    </label>
-    <label>
-        <input type="radio" name="gender" value="other">
-        Other
-    </label>
-
-    <br><br>
-
+    <label for="email">enter your name</label>
+    <input type="text" id="email">
 </form>
 
 
@@ -57,7 +35,6 @@
 
 
 
-  </style>
 </head>
 <body>
 
@@ -67,5 +44,25 @@
 
   <div id="colorPreview"></div>
 
+
+
+
+<form id="genderForm">
+    <label>
+        <input type="radio" name="gender" value="male">
+        Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female">
+        Female
+    </label>
+    <label>
+        <input type="radio" name="gender" value="other">
+        Other
+    </label>
+
+    <br><br>
+
+</form>
 
 <input type="button" value="Submit"onclick="getSelectedGender()">
