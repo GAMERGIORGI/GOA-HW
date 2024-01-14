@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color:white;
+  }
+
+.title{
+    font-size:60px
+}
+
+.text{
+    font-size:30px;
+}
+
+.text2{
+    font-size:30px
+}
+
+.text3{
+    font-size:25px
+}
+
+.text4{
+    text-decoration:none;
+}
+
+
+
+.text7{
+    bottom: 14px;
+    position: relative;
+    right: 70px;
+}
+
+.text5{
+    right: 15px;
+    bottom: 12px;
+    position: relative;
+    
+}

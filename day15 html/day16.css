@@ -35,3 +35,16 @@ body {
     height: 315px;
     transform: perspective(300px) rotateX(30deg);
 }
+<form id="genderForm">
+    <label>
+        <input type="radio" name="gender" value="male">
+        mastercard
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female">
+        paypal
+    </label>
+    <label>
+        <input type="radio" name="gender" value="other">
+        american express
+    </label>
