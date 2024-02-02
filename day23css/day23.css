@@ -1,0 +1,17 @@
+.text {
+    color:red;
+    margin: 150px 700px;
+    font-size: 100px;
+}
+
+.user {
+    font-size:40px;
+    color:red;
+    margin: 65px;
+}
+
+.pass {
+    font-size:40px;
+    color:red;
+    margin: 65px;
+}

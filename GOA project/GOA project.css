@@ -11,7 +11,7 @@
   padding-left: 800px
 }
 
-.btn {
+.g {
   display: inline-block;
   padding: 20px 50px;
   background-color: #12c921;
@@ -27,7 +27,7 @@
   margin: 1px 1300px;
 }
 
-.btn::before {
+.b {
   content: "";
   position: absolute;
   top: 50%;
@@ -41,13 +41,13 @@
   transform: translate(-50%, -50%);
 }
 
-.btn:hover::before {
+.bf {
   width: 0;
   height: 0;
 }
 
 
-.btn span {
+.sp {
   position: relative;
   z-index: 1;
 }
