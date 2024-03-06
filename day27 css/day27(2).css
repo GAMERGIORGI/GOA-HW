@@ -1,0 +1,41 @@
+.container {
+    width: 100%; /* Change fixed width to percentage */
+    max-width: 600px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: auto; /* Remove fixed margin-left */
+    margin-right: auto; /* Remove fixed margin-left */
+    margin-top: 20px; /* Change fixed margin-top to spacing */
+    margin-bottom: 20px; /* Add spacing at the bottom */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3d4042;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.square {
+    width: 100%; /* Change fixed width to percentage */
+    height: auto; /* Change fixed height to auto */
+    max-width: 400px; /* Set a maximum width */
+    margin: 0 auto; /* Center the square */
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
