@@ -1,5 +1,7 @@
-function changeBackgroundColor() {
-    document.body.style.backgroundColor = '#ff7f50';
-}
-
-document.getElementById('changeColorBtn').onclick = changeBackgroundColor;
+let excuseme = 'excuse me';
+    let name = 'jamal';
+    
+ 
+    let message = `${greeting}, ${name} who told u do take a break?`;
+    
+    document.getElementById('message').textContent = message;
